@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-TARGET = main
+TARGET = prefix_array
 
-SRCS = main.cpp directed_graph.cpp strongly_connected.cpp
+SRCS = prefix_array.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 $(TARGET): $(OBJS)

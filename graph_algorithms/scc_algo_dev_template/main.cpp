@@ -5,12 +5,11 @@
 using namespace std;
 
 /**
- * @brief Main function to demonstrate Kosaraju's and Tarjan's algorithms
+ * @brief Main function to demonstrate Kosaraju's algorithm
  *        for finding strongly connected components (SCCs) in a directed graph.
  *
  * The user is prompted to input the number of edges and then each edge in the graph.
- * Both Kosaraju's and Tarjan's algorithms are executed, and the strongly connected
- * components are displayed.
+ * Kosaraju's algo is executed and the SCCs are displayed as result
  *
  * @return int Exit status of the program.
  */
@@ -35,9 +34,6 @@ int main()
 
     cout << "\n====== Running Kosaraju's Algorithm ======\n";
     KosarajuAlgorithm::run(g);
-
-    cout << "\n====== Running Tarjan's Algorithm ======\n";
-    TarjanAlgorithm::run(g);
 
     return 0;
 }
